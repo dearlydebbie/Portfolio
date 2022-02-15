@@ -40,13 +40,13 @@ p {
   text-align: center;
 }
 
-.navigation-links {
+.hero .navigation-links {
   display: flex;
   margin-top: 40px;
   justify-content: center;
 }
 
-.navigation-links a {
+.hero .navigation-links a {
   margin: 20px;
   border-radius: 4px;
   padding: 20px 15px;
@@ -65,21 +65,6 @@ p {
 }
 
 .primary-link:hover {
-  color: white;
-}
-
-.secondary-link {
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
-}
-
-.contact-link {
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
   color: white;
 }
 
