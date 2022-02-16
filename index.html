@@ -1,85 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Deborah Adeoye</title>
-    <link rel="stylesheet" href="src/styles.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
-      crossorigin="anonymous"
-    />
-    <script src="src/index.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
-    <div class="hero">
-      <p>👋 Hello, I'm</p>
-      <h1>Deborah Adeoye</h1>
-      <h2 class="mb-5">A Front End Developer based in Nigeria</h2>
-      <div class="navigation-links mb-5">
-      <a href="#" class="primary-link">Contact me</a>
-    </div>
-   </div>
-    <div class="container">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Front End Developer | Deborah Adeoye</title>
+  <meta name="description" content="Deborah is a new front-end developer based in Lagos, Nigeria. Learn more about her and the projects she is currently working on." />
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Sacramento&display=swap" rel="stylesheet"><link rel="stylesheet" href="src/styles.css">
+  <link rel="stylesheet" href="src/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/ddc3ee268a.js" crossorigin="anonymous"></script>
+  <script src="src/index.js"></script>
+</head>
+<body>
+  <nav class="d-flex justify-content-center">
+    <ul>
+      <li class="active"><a href="/" title="Homepage">Home</a></li>
+      <li><a href="/about.html" title="About">About</a></li>
+      <li><a href="/my-work.html" title="Projects">My Work</a></li>
+      <li><a href="/contact.html" title="Contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="hero">
+    <h1>Deborah Adeoye</h1>
+    <h2>Front End Developer</h2>
+  </div>
+  <h1 class="feature-title">Featured Projects<h1>
+    <div class="container content">
       <div class="row mb-5">
-        <div class="col d-none d-lg-block">
-          <img src="images/yoga.png" class="img-fluid rounded" />
+        <div class="col-sm-6">
+          <img
+            src="/images/weather-app.png"
+            alt="weather project"
+            class="img-fluid rounded d-none d-sm-block"
+          />
         </div>
-        <div class="col">
-          <h2 class="mb-5">Yoga app</h2>
-          <p class="mb-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-            eos eveniet alias temporibus deserunt veritatis minima fugiat
-            explicabo eum dolore.
+        <div class="col-sm-6 featured-content">
+          <h3>Weather App</h3>
+          <p class="shecodes-link">
+            This application was built during the <a href="https://www.shecodes.io/workshops" target="_blank" title="SheCodes Workshops">SheCodes Plus Workshop.</a> It is a fully functioning weather app which uses real-time data. Try my app to search for the current weather of over 200,000 cities!
           </p>
-          <div class="mb-5">
-            <a href="#" class="primary-link">Launch Yoga App</a>
-          </div>
+          <a href="https://debbies-weather-app.netlify.app/" target="_blank" title="Launch Weather App" class="project-link">Launch Weather App</a>
         </div>
       </div>
-      <div class="row mb-5">
-        <div class="col">
-          <h2 class="mb-5">Weather app</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-            eos eveniet alias temporibus deserunt veritatis minima fugiat
-            explicabo eum dolore.
+      <div class="row mb-3">
+        <div class="col-sm-6 featured-content">
+          <h3>Food Project</h3>
+          <p class="shecodes-link">
+            I coded this project through the <a href="https://www.shecodes.io/workshops" target="_blank" title="SheCodes Workshops">SheCodes Basics Workshop.</a> This is the first project I worked on as a learning front-end developer. It is a simple web-page about one of my passions - food!
           </p>
-          <div class="mb-5">
-            <a href="#" class="primary-link">Launch Weather App</a>
-          </div>
+          <a href="https://www.shecodes.io/workshops/shecodes-basics-23e57cdf-f4a8-49c9-97a7-289a0c522fda/projects/666279"
+            target="_blank" title="My Mini Pasta Project" class="project-link">Launch Food Project</a>
         </div>
-        <div class="col d-none d-lg-block">
-          <img src="images/weather.png" class="img-fluid rounded" />
-        </div>
-      </div>
-      <div class="row mt-5">
-        <div class="col d-none d-lg-block">
-          <img src="images/yogurt.png" class="img-fluid rounded" />
-        </div>
-        <div class="col">
-          <h2 class="mb-3">Yogurt app</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-            eos eveniet alias temporibus deserunt veritatis minima fugiat
-            explicabo eum dolore.
-          </p>
-          <div class="mt-5">
-            <a href="#" class="primary-link">Launch Yogurt App</a>
-          </div>
+        <div class="col-sm-6">
+          <img
+            src="/images/pasta.png"
+            alt="food project"
+            class="img-fluid rounded d-none d-sm-block"
+          />
         </div>
       </div>
     </div>
-  </body>
+
+    <div class="center">
+        <a href="my-work.html" class="btn btn-branding">More Projects</a>
+    </div>
+
+    <div class="footer social-links d-flex justify-content-center mt-5">
+      <a href="mailto:debbieadeoye1@gmail.com" title="E-mail">
+        <i class="fas fa-envelope"></i>
+      </a>
+      <a href="https://github.com/dearlydebbie" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/deborahadeoye/"
+        target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    </div>
+    <p class="text-center mb-5 open-source">
+      <a href="https://github.com/dearlydebbie/Portfolio" target="_blank" title="GitHub Repository">Open-source</a> code by Deborah Adeoye</p>
+  
+</body>
 </html>
